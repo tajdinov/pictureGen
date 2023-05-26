@@ -98,8 +98,8 @@ const CreatePost = () => {
           <FormField
             labelName="Prompt"
             type="text"
-            name="propmt"
-            placeholder="an armchair in the shape of an avocado"
+            name="prompt"
+            placeholder="An Impressionist oil painting of sunflowers in a purple vase…"
             value={form.prompt}
             handleChange={handleChange}
             isSurpriseMe
